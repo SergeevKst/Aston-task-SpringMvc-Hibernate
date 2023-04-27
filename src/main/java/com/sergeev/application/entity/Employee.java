@@ -25,7 +25,7 @@ import java.io.Serializable;
 @Getter
 @Setter
 @Entity
-@Table(name = "employee", schema = "Aston_application")
+@Table(name = "employee", schema = "railway")
 public class Employee implements Serializable {
     private static final long serialVersionUID = 1L;
     @GeneratedValue(strategy = GenerationType.IDENTITY)
